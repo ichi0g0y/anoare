@@ -6,8 +6,8 @@ export default defineConfig({
     sourcemap: true,
     lib: {
       entry: 'src/index.ts',
-      formats: ['es', 'cjs'],
-      fileName: (format, entryName) => `${entryName}.${format === 'es' ? 'mjs' : 'cjs'}`,
+      formats: ['es'],
+      fileName: (format, entryName) => `${entryName}.mjs`,
     },
     rollupOptions: {
       output: {

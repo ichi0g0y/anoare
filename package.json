@@ -1,6 +1,6 @@
 {
   "name": "anoare",
-  "version": "0.0.20",
+  "version": "0.1.0",
   "description": "あの〜、あれ...なんだっけ？ / Umm…, What was it...?",
   "keywords": [
     "typescript",
@@ -16,12 +16,11 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
+      "import": "./dist/index.mjs"
     },
     "./package.json": "./package.json"
   },
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
