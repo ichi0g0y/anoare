@@ -6,12 +6,11 @@
     "typescript",
     "utility"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nantokaworks/anoare.git"
-  },
+  "repository": "github:ichi0g0y/anoare",
+  "bugs": "https://github.com/ichi0g0y/anoare/issues",
+  "homepage": "https://github.com/ichi0g0y/anoare#readme",
   "license": "MIT",
-  "author": "Yamashita, Shinichi",
+  "author": "Shinichi Yamashita",
   "type": "module",
   "exports": {
     ".": {
@@ -32,9 +31,9 @@
     "build:docs": "typedoc",
     "test": "vitest --run"
   },
-  "prettier": "prettier-config-nantokaworks",
+  "prettier": "prettier-config-ichi0g0y",
   "devDependencies": {
-    "prettier-config-nantokaworks": "^0.1.1",
+    "prettier-config-ichi0g0y": "file:../prettier-config",
     "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.29.0",
